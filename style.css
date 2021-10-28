@@ -1,0 +1,17 @@
+* {
+    background-color: #0c121a;
+    color: #ffedc7;
+    font-family: "Hack";
+}
+.workexperience {
+    border-radius: 8px;
+    padding: 20px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    border: 1px solid #ffae0d;
+    background-color: #333;
+}
+
+button {
+    border-radius: 8px;
+}
