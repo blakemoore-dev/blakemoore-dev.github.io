@@ -3,6 +3,7 @@
     color: #ffedc7;
     font-family: "Hack";
 }
+
 .workexperience {
     border-radius: 8px;
     padding: 20px;
@@ -10,8 +11,18 @@
     padding-right: 10px; */
     border: 1px solid #ffae0d;
     background-color: #333;
+    text-align: center;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 button {
     border-radius: 8px;
+}
+
+#test {
+    color: #0fffff;
 }
