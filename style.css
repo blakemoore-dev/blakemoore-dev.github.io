@@ -1,45 +1,43 @@
 * {
-    background-color: transparent;
-    color: #ffedc7;
-    font-family: "Hack";
+  background-color: #090a0f;
+  color: #ffedc7;
+  font-family: "Hack";
+}
+
+/* ------------- TAGS ------------- */
+.container {
+  background-color: transparent;
 }
 
 html {
-    background-image: linear-gradient(to right, #090a0f, #0c121a, #090a0f);
-    height: 100%;
-}
-
-.workexperience {
-    border-radius: 8px;
-    padding: 20px;
-    border: 1px solid #5eaf9f;
-    text-align: center;
-}
-
-p {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-button {
-    border-radius: 8px;
-}
-
-.test {
-    border-radius: 8px;
-    padding: 20px;
-    border: 1px solid #ffae0d;
+  background-image: url("images/overlay.png"),
+    linear-gradient(45deg, #0f142c, #090a0f);
+  height: 100%;
 }
 
 img {
-    width: 10%;
-    border: 2px solid #09adef;
-    /* border-radius: 10%; */
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  width: 20%;
+  margin: 20px;
+  border: 2px solid #09adef;
+  /* border-radius: 10%; */
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-#test {
-    color: #0fffff;
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/* ------------- CLASSES ------------- */
+
+.blob {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0px;
 }
