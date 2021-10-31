@@ -1,5 +1,5 @@
 * {
-  background-color: #090a0f;
+  background-color: #13141f;
   color: #ffedc7;
   font-family: "Hack";
 }
@@ -12,8 +12,9 @@ h1, h2 {
 }
 
 html {
+  background-attachment: fixed;
   background-image: url("images/overlay.png"),
-    linear-gradient(45deg, #0f142c, #090a0f);
+    linear-gradient(135deg, #333958, #090a0f 70%);
   height: 100%;
 }
 
@@ -23,8 +24,8 @@ img {
 }
 
 #nav {
-		position: absolute;
-		width: 64em;
+		position: relative;
+		/* width: 64em; */
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
